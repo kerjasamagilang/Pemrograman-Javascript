@@ -1,4 +1,4 @@
-## cara menulis kode Javascript
+## Cara menulis kode Javascript
 
     Penulisan Kode Javascript dibagi menjadi 3 cara:
 
@@ -64,4 +64,91 @@
 
                         // menampilkan output ke elemen hasil
                         hasil.innerHTML = "<p>Aku suka Javascript</p>";
-                    </script> 
+                    </script>
+
+## Percabangan atau Pengkondisian
+
+    Percabangan  atau Pengkondisian adalah istilah untuk menggambarkan alur program yang bercabang
+    Selain percabangan, struktur ini juga disebut: control flow, decision, struktur kondisi, Struktur if, dsb.
+    Percabangan akan mampu membuat program berpikir dan menentukan tindakan sesuai dengan logika/kondisi
+    yang kita berikan.
+
+        Pada Javascript terdapat 6 bentuk Pengkondisian atau Percabangan yang harus kita ketahui
+
+        1. Percabangan atau Pengkondisian IF
+            Percabangan if merupakan percabangan yang hanya memiliki satu blok
+            pilihan saat kondisi bernilai benar   
+
+        2. Percabangan atau Pengkondisian IF ELSE
+            Percabangan if/else merupakan percabangan yang memiliki dua blok pilihan
+            Pilihan pertama untuk kondisi benar, dan pilihan kedua untuk kondisi salah (else)  
+
+        3. Percabangan atau Pengkondisian IF ELSE IF
+            Percabangan if/else/if merupakan percabangan yang memiliki lebih dari dua blok pilihan
+
+        4. Percabangan atau Pengkondisian Switch Case
+            Percabangan switch/case adalah bentuk lain dari percabangan if/else/if
+            Kita dapat membuat blok kode (case) sebanyak yang diinginkan di dalam blok switch
+            Pada <value>, kita bisa isi dengan nilai yang nanti akan dibandingkan dengan varabel
+            Setiap case harus diakhiri dengan break. Khusus untuk default, tidak perlu diakhiri
+            dengan break karena dia terletak di bagian akhir, pemberian break bertujuan agar
+            program berhenti mengecek case berikutnya saat sebuah case terpenuhi.
+
+        5. Percabangan atau Pengkondisian dengan operator Ternary
+            Percabangan menggunakan opreator ternary merupakan bentuk lain dari percabangan if/else.
+            Bisa dibilang: Bentuk singkatnya dari if/else.
+
+        6. Percabangan atau Pengkondisian Bersarang
+            Kita juga dapat membuat blok percabangan di dalam percabangan.
+            Ini disebut percabangan bersarang atau nested if.
+
+        7. Percabangan atau Pengkondisian dengan operator Logika
+            Percabangan bersarang, sebanarnya bisa kita buat lebih sederhana lagi
+            dengan menggunakan operator logika.
+
+
+
+
+## Perulangan pada Javascript
+
+    Perulangan akan membantu kita mengeksekusi kode yang berulang-ulang berapa pun kita mau
+
+    Ada 5 macam perulangan pada Javascript. Secara umum dibagi menjadi 2
+
+        • Counted Loop
+
+        • Uncounted Loop
+
+            Perbedaannya:
+
+                •   Counted Loop merupakan perulangan yang jelas dan
+                    sudah tentu banyak perulangannya.
+
+                •   Uncounted Loop merupakan perulangan yang tidak jelas
+                    berapa kali ia harus mengulanginya
+
+
+                Contoh:                                      Contoh:             
+
+                    FOR (Counted Loop)                          While (Uncounted Loop)
+        
+                    Push Up 10x                                 Push Up Sampai bosan
+
+                    For (i = 0; i < 10; i++){                   while (not bosan){
+                        pushUp();                                   pushUp();
+                    }                                           }    
+
+        Perulangan yang termasuk Counted Loop:
+
+            • For
+            • Foreach
+            • Repeat
+
+        Perulangan yang termasuk Uncounted Loop:
+
+            • While
+            • Do/While
+
+        Perulangan lainnya
+
+            • Perulangan nested atau bersarang
