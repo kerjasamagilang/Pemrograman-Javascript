@@ -152,3 +152,77 @@
         Perulangan lainnya
 
             • Perulangan nested atau bersarang
+
+        
+## Function Javascript
+
+    Function
+
+        • Sebuah sub-program / sub-routine yang dapat DIPANGGIL di bagian lain pada program
+        • Merupakan struktur dasar pembentuk dari Javascript
+        • Disebut juga prosedur 'Kumpulan statement untuk melakukan tugas atau menghitung nilai'
+        • Untuk dapat menggunakannya, kita harus 'Membuat' terlebih dahulu function tersebut lalu 'Memanggil'
+        • Termasuk kedalam first-class object
+
+###         1. Built-in Function
+
+###         2. User-Defined Function
+
+
+####            1. Built-in Function
+
+                    • Funtion ini sudah disediakan oleh Javascript, kita tinggal memanggilnya
+
+######              CONTOH 
+                        • alert();
+                        • confirm();
+                        • prompt();
+                        • console.log();
+                        • charAt();
+                        • toUpperCase();
+                        • toLowerCase();
+
+                    var nama = "Gilang Purnama";
+                    console.log(nama.charAt(5))
+
+            
+####            2. User-Defined Funtion
+
+                    • Function yang kita buat sendiri
+                    • Menggunaka keyword funtion
+                    • Di dalam funtion memiliki parameter atau argumen
+                        • Disimpan di dalam ()
+                        • Dapat memiliki parameter lebih dari satu ataupun tidak memiliki parameter
+                        • Jika lebih dari satu dipisah dengan koma ,
+                    • Function body dibungkus dengan kurung kurawal {}
+                    • Dapat mengembalikan nilai (return value) atau tidak
+
+######              Membuat User-Defined Funtion
+
+######                  1. Deklarasi
+######                  2. Ekspresi
+
+                            1. Deklarasi
+                             
+                                funtion matematika(a, b) {
+                                    var total;
+                                    total = a + b;
+
+                                    return total;
+                                }
+
+                            2. Ekspresi
+
+                                var matematika = function (a, b) {
+                                    var total;
+                                    total = a + b;
+
+                                    return total;
+                                }
+
+                    
+######              Menjalankan Funtion
+
+                        alert(matematika(1, 2));
+                        console.log(matematika(4, 9));
+                        
